@@ -1,14 +1,9 @@
 public class BmiService {
-    public double calculate(int m, double h) {
-
-
+    public double calculate(int massa, double height) {
         double indeks;
-        double hh;
-        hh = h*h;
-
-        indeks = m/hh;
-    return indeks;}
-
-
-
+        double height2;
+        height2 = height * height;
+        indeks = massa / height2;
+        return indeks;
+    }
 }
